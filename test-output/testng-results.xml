@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-29T12:27:15 IST" name="Default suite" finished-at="2023-09-29T12:27:22 IST" duration-ms="6456">
+  <suite started-at="2023-10-05T11:07:09 IST" name="Default suite" finished-at="2023-10-05T11:07:17 IST" duration-ms="8195">
     <groups>
     </groups>
-    <test started-at="2023-09-29T12:27:15 IST" name="Default test" finished-at="2023-09-29T12:27:22 IST" duration-ms="6456">
+    <test started-at="2023-10-05T11:07:09 IST" name="Default test" finished-at="2023-10-05T11:07:17 IST" duration-ms="8195">
       <class name="jenkinsMavenIntegration.SampleTestCase">
-        <test-method signature="lauchBrowser()[pri:0, instance:jenkinsMavenIntegration.SampleTestCase@1bd4fdd]" started-at="2023-09-29T12:27:15 IST" name="lauchBrowser" finished-at="2023-09-29T12:27:22 IST" duration-ms="6377" status="PASS">
+        <test-method signature="lauchBrowser()[pri:0, instance:jenkinsMavenIntegration.SampleTestCase@1a6d8329]" started-at="2023-10-05T11:07:09 IST" name="lauchBrowser" finished-at="2023-10-05T11:07:17 IST" duration-ms="8150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
