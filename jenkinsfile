@@ -1,0 +1,34 @@
+pipeline{
+  agent any
+    environment{
+  notifyEmail = "sajansingh3112@gmail.com"
+}
+  tools{
+    maven 'maven_home'
+  }
+  triggers{
+    cron('0 06 * * *')
+  }
+  stages{
+    stage("code running"){
+      steps{
+        bat "echo whatsapp"
+      }
+    }
+    stage("code create"){
+      steps{
+        bat "mvn clean"
+      }
+    }
+    stage("unit testing"){
+      steps{
+        bat "mvn test"
+      }
+    }
+}
+post{
+  success{
+    bat "echo pass"
+    }
+  }
+}
